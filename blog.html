@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>University Website Design</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">COURSE</a></li>
+					<li><a href="">BLOG</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+		<h1>Our Certicates & Online Programs for 2021</h1>
+</section>
+
+<!--------------- blog page content ----------->
+
+<section class="blog-content">
+
+<div class="row">
+	<div class="blog-left">
+		<img src="images/certificate.jpg">
+		<h2>Our Certicates & Online Programs for 2021</h2>
+		<p>Professional Certificates on Eduford help you get job-ready for an in-demand career field in less than a year. Earn a career credential, apply your knowledge to hands-on projects that showcase your skills for employers, and get access to job search resources. Many programs also provide a pathway to an industry-recognized certification.</p>
+		<br>
+		<p>Free online certifications not only expand your skill and knowledge but also makes your resume more attractive to recruiters for private or government jobs. Free online courses give you a chance to learn from industry experts without spending a dime. The major MOOCs (Massive Open Online Courses) platform (Udemy, Udacity, Coursera, and edX) have changed their model where the course is free, but printable certification is chargeable. Though there still are tons of free courses online with certificates from reputed providers. But not all courses cover the course content in-depth or have industry-ready course content.</p>
+		<br>
+		<p>Harvard CS50 is an entry-level free online computer science course which helps you to learn how you can think algorithmically and solve problems efficiently.It includes a problem set that is inspired by real-world domains of cryptography, biology, finance, forensics, and gaming. By registering this online course, you will also participate in research about learning. Read our research statement to learn more.</p>
+		<br>
+		<p>course helps you turn into the best developer, freelancer, and entrepreneur. This iOS course gives you all the developer skills you could ever want.This is a bundle of six-course certificates developed by Google to provide IT professionals with in-demand IT skills, like Python, Git, and IT automation.This course program builds, which helps you to take your career to the next level. This learning material designed in such a way that teaches you how you can program with Python and how you can use Python to automate frequently use system administration tasks.In this course, you will also learn to use Git and GitHub, troubleshoot and debug complicated problems, and apply automation by using configuration management and the Cloud.This certificate can be completed in about six months and is designed to prepare you for various roles in IT, like more advanced IT Support Specialist or Junior Systems Administrator positions.The course offers a complete section on how you can create a startup, right from idea to raising millions in venture capital funding.</p>
+
+
+            <div class="comment-box">
+
+            	<h3>Leave a Comment</h3>
+
+                <form class="comment-form">
+                	<input type="text" placeholder="Enter Name">
+                	<input type="mail" placeholder="Enter Email">
+                	<textarea rows="5" placeholder="Your Comment"></textarea>
+                	<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+             </div>
+
+
+    </div>
+	<div class="blog-right">
+		<h3>Post Categories</h3>
+		<div>
+			<span>Business Analytics</span>
+			<span>21</span>
+		</div>
+		<div>
+			<span>Data Science</span>
+			<span>28</span>
+		</div>
+		<div>
+			<span>Machine Learning</span>
+			<span>15</span>
+		</div>
+		<div>
+			<span>Computer Science</span>
+			<span>34</span>
+		</div>
+		<div>
+			<span>AutoCAD</span>
+			<span>42</span>
+		</div>
+		<div>
+			<span>Journalism</span>
+			<span>22</span>
+		</div>
+		<div>
+			<span>Commerce</span>
+			<span>30</span>
+		</div>
+	</div>
+</div>
+
+</section>
+
+<!----------------- Footer ---------->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>The zeal & desire to work hard and equip yourself with skills is the key to success, no matter the field.<br>Data science is no exception. It’s not the degree but the knowledge that one acquires from the process that matters.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Sibani Acharya</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------Javascript for Toggle Menu------------------->
+<script>
+
+   var navLinks = document.getElementById("navLinks");
+
+   function showMenu(){
+   	   navLinks.style.right = "0";
+   }
+   function hideMenu(){
+   	   navLinks.style.right = "-200px";
+   }
+
+
+
+</script>
+
+</body>
+</html>

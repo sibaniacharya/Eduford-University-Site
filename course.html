@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>University Website Design</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">COURSE</a></li>
+					<li><a href="">BLOG</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+		<h1>Our Courses</h1>
+</section>
+
+<!----------- Course ------------>
+
+<section class="course">
+	<h1>Courses We Offer</h1>
+	<p>An online class is a course conducted over the Internet.</p>
+
+	<div class="row">
+		<div class="course-col">
+			<h3>Intermediate</h3>
+			<p>An intermediate class,course etc is at a level of knowledge or skill that is between the basic level and the advanced level.</p>
+		</div>
+		<div class="course-col">
+			<h3>Degree</h3>
+			<p>A degree at a university or college is a course of study that you take there, or the qualification that you get when you have passed the course.</p>
+		</div>
+		<div class="course-col">
+			<h3>Post Graduation</h3>
+			<p>A student who has already received one degree and is studying at a university for a more advanced degree.</p>
+		</div>
+	</div>
+
+
+</section>
+
+<!------------ facilities -------------->
+<section class="facilities">
+	<h1>Our Facilities</h1>
+	<p>A natural ability to do or learn something well and easily.</p>
+
+	<div class="row">
+		<div class="facilities-col">
+			<img src="images/library.png">
+			<h3>World Class Library</h3>
+			<p>Library, traditionally, collection of books used for reading or study, or the building or room in which such a collection is kept.</p>
+		</div>
+		<div class="facilities-col">
+			<img src="images/basketball.png">
+			<h3>Basket Ball Ground</h3>
+			<p>An outdoor area provided for children to play in, especially at a school or public park.</p>
+		</div>
+		<div class="facilities-col">
+			<img src="images/cafeteria.png">
+			<h3>Largest Cafe</h3>
+			<p>Cafeteria, self-service restaurant in which customers select various dishes from an open-counter display.</p>
+		</div>
+	</div>
+
+
+</section>
+
+
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>The zeal & desire to work hard and equip yourself with skills is the key to success, no matter the field.<br>Data science is no exception. It’s not the degree but the knowledge that one acquires from the process that matters.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Sibani Acharya</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------Javascript for Toggle Menu------------------->
+<script>
+
+   var navLinks = document.getElementById("navLinks");
+
+   function showMenu(){
+   	   navLinks.style.right = "0";
+   }
+   function hideMenu(){
+   	   navLinks.style.right = "-200px";
+   }
+
+
+
+</script>
+
+</body>
+</html>
